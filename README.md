@@ -1,2 +1,2 @@
 # mailtrack
-:mailbox: 电子邮件追踪
+:syringe: 电子邮件追踪
