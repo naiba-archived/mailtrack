@@ -74,8 +74,8 @@ var verifier *oidc.IDTokenVerifier
 
 func init() {
 	ctx = context.Background()
-	clientID := "1-66hM9Z"
-	clientSecret := "twC7ItQTM31wqjJf"
+	clientID := "1-gBtUEy"
+	clientSecret := "eDib2wZci1MgNlXl"
 
 	provider, err := oidc.NewProvider(ctx, "https://space.mentuo.com")
 	if err != nil {
@@ -89,7 +89,7 @@ func init() {
 		ClientID:     clientID,
 		ClientSecret: clientSecret,
 		Endpoint:     provider.Endpoint(),
-		RedirectURL:  "https://" + mailtrack.WC.Domain + "/oauth2/callback",
+		RedirectURL:  "http://" + mailtrack.WC.Domain + "/oauth2/callback",
 		Scopes:       []string{oidc.ScopeOpenID, "profile"},
 	}
 }
@@ -124,8 +124,6 @@ func Oauth2LoginCallback(c *gin.Context) {
 		return
 	}
 
-	oauth2Token.AccessToken = "*REDACTED*"
-
 	resp := struct {
 		OAuth2Token   *oauth2.Token
 		IDTokenClaims *json.RawMessage // ID Token payload is just JSON.
@@ -146,5 +144,7 @@ func Oauth2LoginCallback(c *gin.Context) {
 		c.String(http.StatusInternalServerError, err.Error())
 		return
 	}
-	log.Println(x)
+	oid := x["IDTokenClaims"]["sub"]
+	username := x["IDTokenClaims"]["name"]
+	log.Println(oid, username)
 }

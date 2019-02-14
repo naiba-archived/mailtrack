@@ -25,3 +25,7 @@ var WC WebConfig
 
 // Cache 全局缓存工具
 var Cache = cache.New(5*time.Minute, 10*time.Minute)
+
+func init() {
+	WC.Domain = "localhost:8080"
+}
