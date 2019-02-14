@@ -2,6 +2,14 @@
 
 
 [[projects]]
+  digest = "1:f6e5e1bc64c2908167e6aa9a1fe0c084d515132a1c63ad5b6c84036aa06dc0c1"
+  name = "github.com/coreos/go-oidc"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "1180514eaf4d9f38d0d19eef639a1d695e066e72"
+  version = "v2.0.0"
+
+[[projects]]
   digest = "1:36fe9527deed01d2a317617e59304eb2c4ce9f8a24115bcc5c2e37b3aee5bae4"
   name = "github.com/gin-contrib/sse"
   packages = ["."]
@@ -65,11 +73,72 @@
   revision = "57fdcb988a5c543893cc61bce354a6e24ab70022"
 
 [[projects]]
+  branch = "master"
+  digest = "1:451c4d7265b3740773805177282beeabb28d442906dece51dfd2042d036b3196"
+  name = "github.com/naiba/com"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "927647a4f54e5db5a040fb97799fca9ed9d0bcd3"
+
+[[projects]]
+  digest = "1:808cdddf087fb64baeae67b8dfaee2069034d9704923a3cb8bd96a995421a625"
+  name = "github.com/patrickmn/go-cache"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "a3647f8e31d79543b2d0f0ae2fe5c379d72cedc0"
+  version = "v2.1.0"
+
+[[projects]]
+  branch = "master"
+  digest = "1:bd9efe4e0b0f768302a1e2f0c22458149278de533e521206e5ddc71848c269a0"
+  name = "github.com/pquerna/cachecontrol"
+  packages = [
+    ".",
+    "cacheobject",
+  ]
+  pruneopts = "UT"
+  revision = "1555304b9b35fdd2b425bccf1a5613677705e7d0"
+
+[[projects]]
   digest = "1:c268acaa4a4d94a467980e5e91452eb61c460145765293dc0aed48e5e9919cc6"
   name = "github.com/ugorji/go"
   packages = ["codec"]
   pruneopts = "UT"
   revision = "c88ee250d0221a57af388746f5cf03768c21d6e2"
+
+[[projects]]
+  branch = "master"
+  digest = "1:b8fa1ff0fc20983395978b3f771bb10438accbfe19326b02e236c1d4bf1c91b2"
+  name = "golang.org/x/crypto"
+  packages = [
+    "ed25519",
+    "ed25519/internal/edwards25519",
+    "pbkdf2",
+  ]
+  pruneopts = "UT"
+  revision = "74369b46fc6756741c016591724fd1cb8e26845f"
+
+[[projects]]
+  branch = "master"
+  digest = "1:f8b491a7c25030a895a0e579742d07136e6958e77ef2d46e769db8eec4e58fcd"
+  name = "golang.org/x/net"
+  packages = [
+    "context",
+    "context/ctxhttp",
+  ]
+  pruneopts = "UT"
+  revision = "3a22650c66bd7f4fb6d1e8072ffd7b75c8a27898"
+
+[[projects]]
+  branch = "master"
+  digest = "1:c664d4451770ebc9ab63d54bccb9e4f2c6106cde7e566ea02889930b836c7d4c"
+  name = "golang.org/x/oauth2"
+  packages = [
+    ".",
+    "internal",
+  ]
+  pruneopts = "UT"
+  revision = "3e8b2be1363542a95c52ea0796d4a40dacfb5b95"
 
 [[projects]]
   branch = "master"
@@ -80,12 +149,40 @@
   revision = "3b5209105503162ded1863c307ac66fec31120dd"
 
 [[projects]]
+  digest = "1:6f3bd49ddf2e104e52062774d797714371fac1b8bddfd8e124ce78e6b2264a10"
+  name = "google.golang.org/appengine"
+  packages = [
+    "internal",
+    "internal/base",
+    "internal/datastore",
+    "internal/log",
+    "internal/remote_api",
+    "internal/urlfetch",
+    "urlfetch",
+  ]
+  pruneopts = "UT"
+  revision = "e9657d882bb81064595ca3b56cbe2546bbabf7b1"
+  version = "v1.4.0"
+
+[[projects]]
   digest = "1:1b4724d3c8125f6044925f02b485b74bfec9905cbf579d95aafd1a6c8f8447d3"
   name = "gopkg.in/go-playground/validator.v8"
   packages = ["."]
   pruneopts = "UT"
   revision = "5f57d2222ad794d0dffb07e664ea05e2ee07d60c"
   version = "v8.18.1"
+
+[[projects]]
+  digest = "1:377f8ccfbf9d7ff3997ea7454b894de46cd1d9fe6ec1e724c93ad59eb716c5c0"
+  name = "gopkg.in/square/go-jose.v2"
+  packages = [
+    ".",
+    "cipher",
+    "json",
+  ]
+  pruneopts = "UT"
+  revision = "e94fb177d3668d35ab39c61cbb2f311550557e83"
+  version = "v2.2.2"
 
 [[projects]]
   digest = "1:cacb98d52c60c337c2ce95a7af83ba0313a93ce5e73fa9e99a96aff70776b9d3"
@@ -98,10 +195,14 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
+    "github.com/coreos/go-oidc",
     "github.com/gin-gonic/gin",
     "github.com/go-playground/locales/en",
     "github.com/go-playground/locales/zh_Hans_CN",
     "github.com/go-playground/universal-translator",
+    "github.com/naiba/com",
+    "github.com/patrickmn/go-cache",
+    "golang.org/x/oauth2",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1
