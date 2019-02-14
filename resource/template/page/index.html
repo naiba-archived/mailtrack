@@ -19,10 +19,6 @@
     <div class="container d-flex flex-column flex-md-row align-items-center">
       <h5 class="my-0 mr-md-auto font-weight-normal">{{.T.T "app_name"}}</h5>
       <nav class="my-2 my-md-0">
-        <!-- <a class="p-2 text-dark" href="#">Features</a>
-        <a class="p-2 text-dark" href="#">Enterprise</a>
-        <a class="p-2 text-dark" href="#">Support</a>
-        <a class="p-2 text-dark" href="#">Pricing</a> -->
         <a class="btn btn-outline-secondary mr-2" href="#">{{.T.T "login"}}</a>
         <a class="btn btn-outline-primary" href="#">{{.T.T "sign-up"}}</a>
       </nav>
@@ -92,8 +88,8 @@
         </div>
         <div class="col col-md-3">
           <select id="switchLanguage" class="custom-select">
-            <option value="zh_Hans_CN"{{if eq .T.Locale "zh_Hans_CN"}} selected{{end}}>中文</option>
-            <option value="en"{{if eq .T.Locale "en"}} selected{{end}}>English</option>
+            <option value="zh_Hans_CN" {{if eq .T.Locale "zh_Hans_CN"}} selected{{end}}>中文</option>
+            <option value="en" {{if eq .T.Locale "en"}} selected{{end}}>English</option>
           </select>
         </div>
       </div>
