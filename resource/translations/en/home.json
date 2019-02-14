@@ -1,0 +1,17 @@
+[
+    {
+        "locale": "en",
+        "key": "free-edition",
+        "trans": "Free"
+    },
+    {
+        "locale": "en",
+        "key": "pro-edition",
+        "trans": "Pro"
+    },
+    {
+        "locale": "en",
+        "key": "enterprise-edition",
+        "trans": "Enterprise"
+    }
+]

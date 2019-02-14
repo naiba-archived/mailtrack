@@ -22,6 +22,27 @@
   version = "v1.3.0"
 
 [[projects]]
+  digest = "1:eea18528ea4cb58fcb93eddc5e525d6079ddcbca856fbe069d724be921e3179c"
+  name = "github.com/go-playground/locales"
+  packages = [
+    ".",
+    "currency",
+    "en",
+    "zh_Hans_CN",
+  ]
+  pruneopts = "UT"
+  revision = "f63010822830b6fe52288ee52d5a1151088ce039"
+  version = "v0.12.1"
+
+[[projects]]
+  digest = "1:e022cf244bcac1b6ef933f1a2e0adcf6a6dfd7b872d8d41e4d4179bb09a87cbc"
+  name = "github.com/go-playground/universal-translator"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "b32fa301c9fe55953584134cb6853a13c87ec0a1"
+  version = "v0.16.0"
+
+[[projects]]
   digest = "1:6ba96a683441984156b05568b9d31dbc846d3336d21ac220fcc819a367dc1f65"
   name = "github.com/golang/protobuf"
   packages = ["proto"]
@@ -76,6 +97,11 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  input-imports = ["github.com/gin-gonic/gin"]
+  input-imports = [
+    "github.com/gin-gonic/gin",
+    "github.com/go-playground/locales/en",
+    "github.com/go-playground/locales/zh_Hans_CN",
+    "github.com/go-playground/universal-translator",
+  ]
   solver-name = "gps-cdcl"
   solver-version = 1
