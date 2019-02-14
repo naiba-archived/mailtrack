@@ -33,5 +33,34 @@
         "locale": "en",
         "key": "enterprise_edition",
         "trans": "Enterprise"
+    },
+    {
+        "locale": "en",
+        "key": "edition_mail_limit",
+        "trans": "{0} mail per month",
+        "type": "Cardinal",
+        "rule": "One"
+    },
+    {
+        "locale": "en",
+        "key": "edition_mail_limit",
+        "trans": "{0} mails per month",
+        "type": "Cardinal",
+        "rule": "Other"
+    },
+    {
+        "locale": "en",
+        "key": "edition_link_limit",
+        "trans": "Link click statistics"
+    },
+    {
+        "locale": "en",
+        "key": "edition_timeout_notify",
+        "trans": "Timeout unread reminder"
+    },
+    {
+        "locale": "en",
+        "key": "edition_hidden_brand",
+        "trans": "Hidden MT brand"
     }
 ]

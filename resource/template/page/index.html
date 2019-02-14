@@ -8,6 +8,7 @@
   <link rel="icon" href="https://getbootstrap.com/favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/twitter-bootstrap/4.3.0/css/bootstrap.min.css">
   <link href="https://fonts.loli.net/css?family=Noto+Serif+SC" rel="stylesheet">
+  <link href="https://cdnjs.loli.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/static/nb.css">
 
   <title>{{.T.T "app_name"}} - {{.T.T "app_slogan"}}</title>
@@ -41,10 +42,10 @@
         <div class="card-body">
           <h1 class="card-title pricing-card-title">¥0 <small class="text-muted">/ mo</small></h1>
           <ul class="list-unstyled mt-3 mb-4">
-            <li>10 users included</li>
-            <li>2 GB of storage</li>
-            <li>Email support</li>
-            <li>Help center access</li>
+            <li><i class="fa fa-envelope"></i> {{.T.C "edition_mail_limit" 2 0 "2"}}</li>
+            <li><i class="fa fa-times-circle text-warning"></i> {{.T.T "edition_link_limit"}}</li>
+            <li><i class="fa fa-times-circle text-warning"></i> {{.T.T "edition_timeout_notify"}}</li>
+            <li><i class="fa fa-times-circle text-warning"></i> {{.T.T "edition_hidden_brand"}}</li>
           </ul>
           <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
         </div>
@@ -54,12 +55,12 @@
           <h4 class="my-0 font-weight-normal">{{.T.T "pro_edition"}}</h4>
         </div>
         <div class="card-body">
-          <h1 class="card-title pricing-card-title">¥15 <small class="text-muted">/ mo</small></h1>
+          <h1 class="card-title pricing-card-title">¥3 <small class="text-muted">/ mo</small></h1>
           <ul class="list-unstyled mt-3 mb-4">
-            <li>20 users included</li>
-            <li>10 GB of storage</li>
-            <li>Priority email support</li>
-            <li>Help center access</li>
+            <li><i class="fa fa-envelope"></i> {{.T.C "edition_mail_limit" 30 0 "30"}}</li>
+            <li><i class="fa fa-check-circle"></i> {{.T.T "edition_link_limit"}}</li>
+            <li><i class="fa fa-bell"></i> {{.T.T "edition_timeout_notify"}}</li>
+            <li><i class="fa fa-audio-description"></i> {{.T.T "edition_hidden_brand"}}</li>
           </ul>
           <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
         </div>
@@ -69,12 +70,12 @@
           <h4 class="my-0 font-weight-normal">{{.T.T "enterprise_edition"}}</h4>
         </div>
         <div class="card-body">
-          <h1 class="card-title pricing-card-title">¥29 <small class="text-muted">/ mo</small></h1>
+          <h1 class="card-title pricing-card-title">¥6 <small class="text-muted">/ mo</small></h1>
           <ul class="list-unstyled mt-3 mb-4">
-            <li>30 users included</li>
-            <li>15 GB of storage</li>
-            <li>Phone and email support</li>
-            <li>Help center access</li>
+            <li><i class="fa fa-envelope"></i> {{.T.C "edition_mail_limit" 900 0 "900+"}}</li>
+            <li><i class="fa fa-check-circle"></i> {{.T.T "edition_link_limit"}}</li>
+            <li><i class="fa fa-bell"></i> {{.T.T "edition_timeout_notify"}}</li>
+            <li><i class="fa fa-audio-description"></i> {{.T.T "edition_hidden_brand"}}</li>
           </ul>
           <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
         </div>

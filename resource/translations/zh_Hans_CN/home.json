@@ -33,5 +33,27 @@
         "locale": "zh_Hans_CN",
         "key": "enterprise_edition",
         "trans": "企业版"
+    },
+    {
+        "locale": "zh_Hans_CN",
+        "key": "edition_mail_limit",
+        "trans": "每月 {0} 封邮件",
+        "type": "Cardinal",
+        "rule": "Other"
+    },
+    {
+        "locale": "zh_Hans_CN",
+        "key": "edition_link_limit",
+        "trans": "链接点击统计"
+    },
+    {
+        "locale": "zh_Hans_CN",
+        "key": "edition_timeout_notify",
+        "trans": "超时未读提醒"
+    },
+    {
+        "locale": "zh_Hans_CN",
+        "key": "edition_hidden_brand",
+        "trans": "隐藏 MT 标识"
     }
 ]
