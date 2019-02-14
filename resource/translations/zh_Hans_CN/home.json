@@ -1,16 +1,6 @@
 [
     {
         "locale": "zh_Hans_CN",
-        "key": "app_name",
-        "trans": "馒头追踪器"
-    },
-    {
-        "locale": "zh_Hans_CN",
-        "key": "app_slogan",
-        "trans": "掌握沟通主动权！"
-    },
-    {
-        "locale": "zh_Hans_CN",
         "key": "mail_track",
         "trans": "知道你的邮件何时被阅读"
     },

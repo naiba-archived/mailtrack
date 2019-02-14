@@ -1,16 +1,6 @@
 [
     {
         "locale": "en",
-        "key": "app_name",
-        "trans": "MentuoTracking"
-    },
-    {
-        "locale": "en",
-        "key": "app_slogan",
-        "trans": "Master the communication initiative!"
-    },
-    {
-        "locale": "en",
         "key": "mail_track",
         "trans": "Know When Your Emails Are Opened"
     },

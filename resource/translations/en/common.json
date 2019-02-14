@@ -1,12 +1,22 @@
 [
     {
-        "locale":"en",
-        "key":"sign-up",
-        "trans":"Sign up"
+        "locale": "en",
+        "key": "app_name",
+        "trans": "MentuoTracking"
     },
     {
-        "locale":"en",
-        "key":"login",
-        "trans":"Login"
+        "locale": "en",
+        "key": "app_slogan",
+        "trans": "Master the communication initiative!"
+    },
+    {
+        "locale": "en",
+        "key": "sign-up",
+        "trans": "Sign up"
+    },
+    {
+        "locale": "en",
+        "key": "login",
+        "trans": "Login"
     }
 ]
