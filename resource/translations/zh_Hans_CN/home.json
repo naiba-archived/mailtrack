@@ -55,5 +55,15 @@
         "locale": "zh_Hans_CN",
         "key": "edition_hidden_brand",
         "trans": "隐藏 MT 标识"
+    },
+    {
+        "locale": "zh_Hans_CN",
+        "key": "sign_up_for_free",
+        "trans": "免费注册"
+    },
+    {
+        "locale": "zh_Hans_CN",
+        "key": "get_started",
+        "trans": "立即开始"
     }
 ]

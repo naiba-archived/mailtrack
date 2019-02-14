@@ -62,5 +62,15 @@
         "locale": "en",
         "key": "edition_hidden_brand",
         "trans": "Hidden MT brand"
+    },
+    {
+        "locale": "en",
+        "key": "sign_up_for_free",
+        "trans": "Sign up for free"
+    },
+    {
+        "locale": "en",
+        "key": "get_started",
+        "trans": "Get started"
     }
 ]

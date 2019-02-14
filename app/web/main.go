@@ -38,6 +38,8 @@ func main() {
 					lang = mailtrack.LEn
 				}
 			}
+		} else {
+			c.SetCookie("locale", lang, 60*60*24*365*2, "/", ".", false, false)
 		}
 		tr, _ := utrans.GetTranslator(lang)
 		c.Set(mailtrack.CTranslatorKey, tr)
