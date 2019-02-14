@@ -1,0 +1,37 @@
+[
+    {
+        "locale": "zh_Hans_CN",
+        "key": "app_name",
+        "trans": "馒头追踪器"
+    },
+    {
+        "locale": "zh_Hans_CN",
+        "key": "app_slogan",
+        "trans": "掌握沟通主动权！"
+    },
+    {
+        "locale": "zh_Hans_CN",
+        "key": "mail_track",
+        "trans": "知道你的邮件何时被阅读"
+    },
+    {
+        "locale": "zh_Hans_CN",
+        "key": "mail_track_desc",
+        "trans": "发出去的邮件石沉大海？不知道对方有没有阅读？马上使用我们的服务，知道对方何时阅读，追踪邮件内链接点击情况。掌握沟通主动权！"
+    },
+    {
+        "locale": "zh_Hans_CN",
+        "key": "free_edition",
+        "trans": "免费版"
+    },
+    {
+        "locale": "zh_Hans_CN",
+        "key": "pro_edition",
+        "trans": "专业版"
+    },
+    {
+        "locale": "zh_Hans_CN",
+        "key": "enterprise_edition",
+        "trans": "企业版"
+    }
+]

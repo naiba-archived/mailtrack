@@ -1,0 +1,37 @@
+[
+    {
+        "locale": "en",
+        "key": "app_name",
+        "trans": "MentuoTracking"
+    },
+    {
+        "locale": "en",
+        "key": "app_slogan",
+        "trans": "Master the communication initiative!"
+    },
+    {
+        "locale": "en",
+        "key": "mail_track",
+        "trans": "Know When Your Emails Are Opened"
+    },
+    {
+        "locale": "en",
+        "key": "mail_track_desc",
+        "trans": "The outgoing mail is sinking into the sea? Do not know if the other party has read? Use our service right away, know when the other party is reading, and track the link clicks in the email. Master the communication initiative!"
+    },
+    {
+        "locale": "en",
+        "key": "free_edition",
+        "trans": "Free"
+    },
+    {
+        "locale": "en",
+        "key": "pro_edition",
+        "trans": "Pro"
+    },
+    {
+        "locale": "en",
+        "key": "enterprise_edition",
+        "trans": "Enterprise"
+    }
+]
