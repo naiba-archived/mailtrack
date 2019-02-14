@@ -1,7 +1,12 @@
 [
     {
-        "locale":"zh_Hans_CN",
-        "key":"sign-up",
-        "trans":"注册"
+        "locale": "zh_Hans_CN",
+        "key": "sign-up",
+        "trans": "注册"
+    },
+    {
+        "locale": "zh_Hans_CN",
+        "key": "login",
+        "trans": "登录"
     }
 ]
